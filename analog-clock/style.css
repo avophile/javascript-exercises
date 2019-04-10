@@ -54,7 +54,7 @@ a.switcher:before {
   widht: 100%;
   height: 100%;
   overflow: hidden;
-}
+}/*
 .figure {
   display: block;
   position: absolute;
@@ -101,7 +101,7 @@ a.switcher:before {
   border-right: 100px solid #111;
   border-left: 100px solid #111;
   border-bottom: 0 solid transparent;
-}
+} */
 .clock {
   display: block;
   position: absolute;
