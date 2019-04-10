@@ -19,7 +19,7 @@
     TM = [],
     Tm = [],
     crx, srx, cry, sry,
-    screen = ge1doot.screen.init("canvas", null, true),
+    screen = myHead.screen.init("canvas", null, true),
     ctx = screen.ctx,
     pointer = screen.pointer.init({
       down: function() {
@@ -168,7 +168,7 @@
 
 
 
-/*var digitalDisplay = document.querySelector('.meter');
+var digitalDisplay = document.querySelector('.meter');
 setInterval (displayDigitalTime, 1000);
 function displayDigitalTime (){
     var now = new Date();
@@ -207,7 +207,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     setInterval(updateArmsLocation, 1000);
 
-}); */
-
-
-//canvas js
+});

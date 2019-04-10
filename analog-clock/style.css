@@ -14,7 +14,7 @@ html, body {
 }
 
 #canvas {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     width:600px;
@@ -23,10 +23,8 @@ html, body {
     margin-top:-150px;
 }
 
-
-
-/* Layout */
-/*.main {
+/* Analog clock Layout */
+.main {
     display: flex;
     padding: 2em;
     height: 90vh;
@@ -39,7 +37,7 @@ html, body {
     width: 100%;
 }
 
-/* Clock styles 
+/* Clock styles */
 .circle {
     fill: none;
     stroke: #000;
@@ -78,8 +76,10 @@ html, body {
     stroke-miterlimit: 10;
 }
 
+/* Digital clock layout */
+
 .meter {
-    text-align: center;
+    justify-content: center;
 }
 
 /* Transparent box ensuring arms center properly. 
