@@ -173,7 +173,8 @@ console.log(`The complete list of three-digit Armstrong numbers is: ${myArmstron
 
 */
 
-
+for (var line = "#"; line.length < 6; line += "#")
+  console.log(line);
 
 /*
 11. Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers. */
